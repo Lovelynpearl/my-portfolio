@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="header">
+        <h1>LOVELYN OKORO</h1>
+        <ul>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+          </button>
+
+
+    </nav>
+    <section class="about" id="about">
+        <img src="lady coding.jpeg" alt="image">
+        <div class="bio">
+            <h2 class="bio-title">About Me</h2>
+            <p class="bio-text">
+              I am <b>Lovelyn Okoro</b>, a <strong>Software Engineer</strong>, Proficient in <span class="span-skills">CSS, HTML, Shell Scripting, Git, Tailwind CSS</span> and <span class="span-skills">React</span>
+              the tools i use are <span class="span">Visual studio code, Github</span> and <span class="second-span">Netlify</span>
+            </p>
+          </div>
+    </section>
+      <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+  
+        <div class="skills-wrapper">
+          <div class="HTML5">
+            <img
+              src="html icon.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="css icon.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="javascript icon 2.gif"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+          </div>
+  
+          <div class="second-set">
+            <img
+              src="react icon 2.gif"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="tailwind icon.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="github icon2.gif"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <h2 class="projects-title">My Projects</h2>
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <img
+              src="woman.webp"
+              alt="website form"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Website</h3>
+            <button class="button"><a href="https://website-lovelyn.netlify.app/" target="_blank" class="project-link">Demo</a></button>
+            <button class="button2"><a href="https://github.com/Lovelynpearl/Project-3.git">Github</a></button>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="siberia_gallery.png"
+              alt=""
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Siberia</h3>
+            <button class="button"><a href="https://project-lovelyn.netlify.app/" target="_blank" class="project-link">Demo</a></button>
+            <button class="button2"><a href="https://github.com/Lovelynpearl/flexbox-project.git">Github</a></button>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form action="https://formspree.io/f/xyylngw" method="POST">
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Enter Your Name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Enter Your Email"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+      <div class="socials">
+        <a href="https://twitter.com/Lovelyn_pearly" target="_blank"
+          ><img
+            src="twitter icon 2.gif"
+            alt="Twitter"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://www.instagram.com/lovelyn_pearly/" target="_blank"
+          ><img
+            src="instagram icon 2.gif"
+            alt="Instagram"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://www.linkedin.com/in/lovelynpearl/" target="_blank"
+          ><img
+            src="linkdin icon.png"
+            alt="Linkedin"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://github.com/Lovelynpearl" target="_blank"
+          ><img src="github icon2.gif" alt="Github" class="socicon"
+        /></a></div>
+
+        <footer>
+            <p class="copy">&copy; Copyright 2023</p>
+      </footer>
+    
+</body>
+</html>
