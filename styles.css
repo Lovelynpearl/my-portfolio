@@ -79,7 +79,7 @@ nav ul li {
     height: 300px;
   }
   
-  .bio h1 {
+  .bio h2 {
     margin-bottom: 30px;
   }
   
@@ -171,9 +171,9 @@ nav ul li {
     margin-bottom: 20px;
   }
   
-  .project-details {
+ /* .project-details {
     margin-bottom: 20px;
-  }
+  }*/
   
   .project-card {
     background-color: #fff;
@@ -288,9 +288,212 @@ nav ul li {
     background-color: pink;
     border-radius: 5px;
     box-shadow: 10px solid black;
-
-  @media screen and (max-width: 800px) {
-    .left, .main, .right {
-      width: 100%;
-    }
   }
+  @media only screen and (max-width:430px) {
+    /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+
+    body {
+      display: flex;
+      flex-direction: column;
+      padding: 0px 10px 0px 10px;
+  
+      
+    }
+    .btn {
+      flex-direction: row;
+      gap: 10px;
+      display: flex;
+    }
+    .header {
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .header ul {
+      margin: 10px;
+    }
+    .about {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    
+      
+
+    }
+    .about img {
+      display: flex;
+      height: 200px;
+      width: 250px;
+      margin-left: -100px;
+      flex-direction: column;
+      margin: 10px;
+      
+
+      
+    }
+
+    .bio {
+      width: 100%;
+      display: flex;
+      height: 250px;
+      flex-direction: column;
+      overflow: scroll;
+      padding: 10px 50px ;
+
+
+      
+  
+    }
+    
+    .bio h2 {
+      font-size: 20px;
+    }
+    
+    .bio p {
+      font-size: 15px;
+      margin: -30px;
+       height: 200px;
+      flex-direction: row;
+      font-display: flex;
+      flex-wrap:wrap;
+      
+
+
+
+    }
+
+    .bio-text {
+      font-style: oblique;
+      
+      
+  
+    }
+    .skills {
+      display: flex;
+      flex-direction: column;
+      width: 200px;
+      height: 200px;
+    }
+    
+    .skill-header {
+      display: flex;
+      font-size: 25px;
+      margin-right: 5px;
+    }
+    
+    .skills-wrapper img {
+      display: flex;
+      width: 100px;
+      flex-direction: column;
+      height: 100px;
+
+      
+    }
+    .skills-wrapper {
+      display: flex;
+      flex-direction: row;
+      margin-left: -20px;
+      width: 50px;
+      height: 10px;
+    }
+    
+    .icon {
+      width: 5.875rem;
+      height: 5.25rem;
+    }
+    .icon-card {
+      display: flex;
+    
+    }
+    .projects {
+      display: flex;
+      flex-direction: column;
+      margin-top: 200px;
+      height: 50px;
+      width: 50%;
+      
+    }
+    
+    .project-pic {
+      width: 80px;
+      height: 60px;
+      display: flex;
+    }
+    
+    .projects-container {
+      display: flex;
+      width: 100px;
+      flex-direction: column;
+      height: 100px;
+      justify-content: center;
+      align-content: center;
+      width: 100%;
+      gap: 20px;
+      margin-top: 100px;
+      
+    }
+    .project-container {
+    
+      width: 70%;
+      height: 100px;
+      margin-left:10px ;
+      
+    
+    }
+
+    .project-container p {
+      padding: 0.4rem;
+    }
+    .project-card {
+      
+    }
+    .contact {
+      display: flex;
+      width: 400px;
+      height: 100vh;
+      justify-content: center;
+      align-content: center;
+      margin: -40px;
+      margin-top: 200px;
+      margin-left: -50px;
+      flex-direction: row;
+    
+      
+    }
+
+    .contact-form-container {
+      width: 400%;
+      height: 85vh;
+      display: flex;
+      padding: 20px;
+      margin: 10px;
+      margin-top: 75px;
+      margin-left: -15px;
+      align-content: center;
+      justify-content: center;
+    }
+    h2 {
+      font-size:large;
+      margin-top: 50px;
+
+    }
+    .socicon {
+      display: flex;
+
+    }
+    footer {
+      display:flex ;
+      
+  
+    }
+  
+  }
+
+ /* @media screen and (max-witdth:320px) {}*/
+
+
+
+
+ 
+  
