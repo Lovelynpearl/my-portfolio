@@ -371,9 +371,19 @@ body {
   bottom: 50%;
   margin: 10px;
   margin-left: 100px;
-  margin-top: 390px;
+  margin-top: -500px;
 
   }
+  .footer {
+    display: flex;
+    margin: 50px;
+    margin-top: 300px;
+  }
+  .socicon {
+    display: flex;
+    width: 2rem;
+    height: 2rem; 
+    margin-top: 200px;
 }
 
 
