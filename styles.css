@@ -27,7 +27,8 @@ ul {
   
   body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-  border: 30px solid pink;
+  
+  max-width: 1600px;
 
  /* .smiley {
     width: 50px;
@@ -337,6 +338,21 @@ nav ul li {
     border-radius: 5px;
     box-shadow: 10px solid black;
   }
+
+
+
+  @media only screen and (max-width:414px) {
+    body {
+      display: flex;
+      padding: 10px auto;
+      border: 10px solid blue;
+      margin: auto;
+    }
+
+
+  }
+
+
   @media only screen and (max-width:430px) {
     /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
 
@@ -344,6 +360,8 @@ nav ul li {
       display: flex;
       flex-direction: column;
       padding: 0px 10px 0px 10px;
+    
+      margin: -20px auto;
   
       
     }
@@ -532,44 +550,41 @@ nav ul li {
       margin-left: 2px;
     }
     .contact {
-      display: flex;
-      width: 85px;
-      height: 50vh;
+  
+      width: 380px;
+      height: 90vh;
      /* justify-content: center;
       align-content: center;
      /* margin: -40px;*/
-      margin-top: 200px;
+      margin-top: 70px;
      /* margin-left: -50px;*/
-      flex-direction: column;
+      
       
       
     
       
     }
 
-    .touch {
+    /*.touch {
      display: flex;
      flex-direction: row;
     /* justify-content: center;*/
-     margin-right: -500px;
+     /*margin-right: -500px;*/
      color: purple;
-     font-weight: 700;
+     font-weight: 700px;
     font-size: large;
-     margin-left: 70px;
-
-    }
+    /* margin-left: 70px;*/
+    margin: 10px 250px;
+    
 
     .contact-form-container {
       width: 400%;
       height: 400%;
       display: flex;
       padding: 20px;
-      margin: 10px;
-      margin-top: 10px;
-      margin-left: -15px;
-      align-content: center;
-      justify-content: center;
-      box-shadow: 0 1px 5px pink;
+      margin: -170px 20px;
+      
+    
     }
     h2 {
       font-size:large;
@@ -585,6 +600,7 @@ nav ul li {
       bottom: 50%;
       margin: 10px;
       margin-left: 100px;
+      margin-top: -500px;
     
     }
     .socicon {
@@ -597,6 +613,8 @@ nav ul li {
     footer {
       display:flex ;
       flex-direction: column;
+      height: 50px;
+      width: auto;
       
   
     }
