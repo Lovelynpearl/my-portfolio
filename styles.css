@@ -345,10 +345,30 @@ nav ul li {
     body {
       display: flex;
       padding: 10px auto;
-      border: 10px solid blue;
       margin: auto;
     }
+.contact {
+  width: 380px;
+  height: 90vh;
+  margin-top: 70px;
+}
 
+.contact-form-container {
+  width: 400%;
+  height: 400%;
+  display: flex;
+  padding: 20px;
+  margin: -170px 20px;
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+  position:static;
+  right: 1%;
+  bottom: 50%;
+  margin: 10px;
+  margin-left: 100px;
+  margin-top: -600px;
 
   }
 
