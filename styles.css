@@ -366,12 +366,13 @@ body {
 .socials {
   display: flex;
   flex-direction: row;
-  position:static;
-  right: 1%;
-  bottom: 50%;
-  margin: 10px;
-  margin-left: 100px;
-  margin-top: -500px;
+  position: absolute;
+  top: 20px;
+  top: 2170px;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+ 
 
   }
   .footer {
@@ -385,6 +386,7 @@ body {
     height: 2rem; 
     margin-top: 200px;
 }
+  }
 
 
   @media only screen and (max-width:430px) {
@@ -629,13 +631,13 @@ body {
     .socials {
       display: flex;
       flex-direction: row;
-      position:static;
-      right: 1%;
-      bottom: 50%;
-      margin: 10px;
-      margin-left: 100px;
-      margin-top: -500px;
-    
+      position: absolute;
+      top: 2200px;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+  
     }
     .socicon {
       display: flex;
