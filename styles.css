@@ -379,6 +379,7 @@ body {
     display: flex;
     margin: 50px;
     margin-top: 300px;
+    background-color: #f2bfbf;
   }
   .socicon {
     display: flex;
