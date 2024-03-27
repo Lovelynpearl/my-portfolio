@@ -563,7 +563,7 @@ body {
     }
     .project-title {
       margin-top: 30px;
-      margin-left: ;
+      
       margin-top: 45px;
       font-size: medium;
 
@@ -575,7 +575,7 @@ body {
       font-size: medium;
       margin: 30px;
       margin-left: -25px;
-      margin-top: 40px;
+      margin-top: 50px;
     }
 
     .project-container p {
@@ -609,11 +609,11 @@ body {
      flex-direction: row;
     /* justify-content: center;*/
      /*margin-right: -500px;*/
-     color: purple;
-     font-weight: 700px;
-    font-size: large;
-    /* margin-left: 70px;*/
-    margin: 10px 250px;
+     /* color: purple; */
+     /* font-weight: 700px; */
+    /* font-size: large; */
+    /* margin-left: 70px; */
+    /* margin: 10px 250px; */
     
 
     .contact-form-container {
@@ -635,7 +635,7 @@ body {
       display: flex;
       flex-direction: row;
       position: absolute;
-      top: 2700px;
+      top: 2300px;
       justify-content: center;
       align-items: center;
       width: 100%;
