@@ -97,6 +97,8 @@ nav ul li {
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px #7a5c58;
     height: 300px;
+    gap: 2px;
+    
   }
   
   .bio h2 {
